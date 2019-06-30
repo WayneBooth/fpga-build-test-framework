@@ -2,3 +2,6 @@
 	path = Xilinx-ISE-Makefile
 	url = https://github.com/WayneBooth/Xilinx-ISE-Makefile.git
 	branch = fpga-build-test-framework
+[submodule "vcd"]
+	path = vcd
+	url = https://github.com/rattboi/vcd.git
