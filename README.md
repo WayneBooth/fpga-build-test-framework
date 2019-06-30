@@ -9,3 +9,9 @@ This framework brings together command line build and test suite into a Makefile
 All the boiler plate code for running and validating your tests are extracted out.
 Everything is configured in one easy config file.
 
+This relys upon a number of other reporitories. Once this repo is clones, you shoudl get all sub modules with:
+
+```
+git submodule update --remote
+```
+

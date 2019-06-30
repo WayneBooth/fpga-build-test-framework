@@ -1,0 +1,4 @@
+[submodule "Xilinx-ISE-Makefile"]
+	path = Xilinx-ISE-Makefile
+	url = https://github.com/WayneBooth/Xilinx-ISE-Makefile.git
+	branch = fpga-build-test-framework
