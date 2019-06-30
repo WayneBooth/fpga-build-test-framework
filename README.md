@@ -12,6 +12,7 @@ Everything is configured in one easy config file.
 This relys upon a number of other reporitories. Once this repo is clones, you shoudl get all sub modules with:
 
 ```
+git submodule init
 git submodule update --remote
 ```
 
