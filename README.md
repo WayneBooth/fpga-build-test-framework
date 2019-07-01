@@ -49,7 +49,7 @@ The boilerplate for running, managing and checking tests is provided and package
 
 'tv' directory .......
 
-
+add example testbench .......
 
 
 ## Using the tools
@@ -63,7 +63,7 @@ make clean
 # Build and run any testbenches
 make test
 
-# Sythises, Place and Route, Generate a bit file.
+# Synthises, Place and Route, Generate a bit file.
 make 
 
 # Upload the bitfile to your device
