@@ -49,6 +49,11 @@ The boilerplate for running, managing and checking tests is provided and package
 
 'tv' directory .......
 
+The instance of the module being testing should be called 'DUT'. eg 
+```
+clk_divider #(.DIVIDE_BY(6)) DUT ( .clk_in(clk), .clk_out(clk_out) );
+```
+
 add example testbench .......
 
 
