@@ -2,6 +2,7 @@
 Xilinx* Verilog**, build and test framework
 
  &#8291;* Currently, the build process is written for command line builds of Xilinx parts. could be extended.
+ 
  ** Currently, the test framework is built around a Verilog testbench. Could be extended.
 
 ## General
@@ -37,7 +38,7 @@ The 'Xilinx-ISE-Makefile' repo provides a convenient way to build Xilinx verilog
 
 Copy the 'Makefile' from the 'Xilinx-ISE-Makefile' directory into the root of your design.
 
-You should then create a configuration file (`project.cnf') as discussed in the repo README, depending on your project name, part specs, etc... A example `project.cnf` file is provided in the root of this repository.
+You should then create a configuration file (`project.cnf`) as discussed in the repo README, depending on your project name, part specs, etc... A example `project.cnf` file is provided in the root of this repository.
 
 
 ### Testbenches
