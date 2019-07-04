@@ -1,5 +1,6 @@
 `define MACRO(x) `"x`" 
 
+reg clk = 0;
 reg [11:0] vectornum, errors;
 reg testvectors [0:10000];
 integer file;
