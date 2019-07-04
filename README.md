@@ -13,7 +13,7 @@ Everything is configured in one easy config file.
 
 ## Setup
 
-This relys upon a number of other reporitories. Once this repo is clones, you shoudl get all sub modules with:
+This relys upon a number of other reporitories. Once this repo is cloned, you should download all sub modules with:
 
 ```
 git submodule init
@@ -22,7 +22,7 @@ git submodule update --remote
 
 
 ### VCD
-The VCD tool will display a VCD waveform file at the command line. The framework will produce a vcd file for each verilog test run, and display it automatically if a test fails.
+The VCD tool will display a VCD waveform file at the command line. The framework will produce a vcd file for each verilog testbench, and display it automatically if a test fails.
 
 Enter the "vcd" directory and build/install the binary.
 
@@ -38,7 +38,7 @@ The 'Xilinx-ISE-Makefile' repo provides a convenient way to build Xilinx verilog
 
 Copy the 'Makefile' from the 'Xilinx-ISE-Makefile' directory into the root of your design.
 
-You should then create a configuration file (`project.cnf`) as discussed in the repo README, depending on your project name, part specs, etc... A example `project.cnf` file is provided in the root of this repository.
+You should then create a configuration file (`project.cnf`) as discussed in the repo README, depending on your project name, part specs, etc... A example `project.cnf` file is provided in the `example` directory.
 
 
 ### Testbenches
@@ -54,8 +54,7 @@ The instance of the module being testing should be called 'DUT'. eg
 ```
 clk_divider #(.DIVIDE_BY(6)) DUT ( .clk_in(clk), .clk_out(clk_out) );
 ```
-
-add example testbench .......
+See an example testbench and testvectors in the 'example' directory.
 
 
 ## Using the tools
